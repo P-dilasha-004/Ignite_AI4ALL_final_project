@@ -117,12 +117,12 @@ In the code, we:
 ## Results (High-Level)
 
 ### **XGBoost Classifier**
-- **Accuracy:** ~70% on the test set  
+- **Accuracy:** ~50% on the test set  
 - Performs significantly better on the majority class (**take-profit** events)  
 - Demonstrates strong baseline performance using engineered features  
 
 ### **LSTM Model**
-- **Accuracy:** ~50% in the current configuration  
+- **Accuracy:** ~70% in the current configuration  
 - Shows a different performance trade-off:
   - Better recall for **stop-loss** (minority) class  
   - Weaker performance on take-profit class without further tuning  
